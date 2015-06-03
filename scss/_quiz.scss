@@ -1,0 +1,13 @@
+.quiz-content{
+	background-color: map-get($colors, calm);
+	
+	&__card{
+		text-align: center;
+		font-size: 1.0em;
+	}	
+
+	&__title{
+		text-align: center;
+		font-size: 1.2em;
+	}
+}

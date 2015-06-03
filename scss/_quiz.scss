@@ -1,5 +1,5 @@
 .quiz-content{
-	background-color: map-get($colors, calm);
+	background-color: map-get($colors, energized);
 	
 	&__card{
 		text-align: center;
@@ -9,5 +9,23 @@
 	&__title{
 		text-align: center;
 		font-size: 1.2em;
+	}
+
+	&__img{
+		height: 170px;
+		padding: 20px;
+		background-size: 100% 170px;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+
+	&__arrow{
+		height: 100px;
+		width: 100px;
+		display: table;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 8em;
+		color: map-get($colors, light);
 	}
 }

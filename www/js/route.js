@@ -1,6 +1,7 @@
 var app = angular.module('starter', [
   'ionic',
   'quiz.controller',
+  'heading.controller',
  ]);
 
 

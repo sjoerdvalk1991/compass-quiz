@@ -8060,10 +8060,24 @@ a.button {
   transition-duration: 0s; }
 
 .quiz-content {
-  background-color: #43cee6; }
+  background-color: #f0b840; }
   .quiz-content__card {
     text-align: center;
     font-size: 1em; }
   .quiz-content__title {
     text-align: center;
     font-size: 1.2em; }
+  .quiz-content__img {
+    height: 170px;
+    padding: 20px;
+    background-size: 100% 170px;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .quiz-content__arrow {
+    height: 100px;
+    width: 100px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 8em;
+    color: #ffffff; }
